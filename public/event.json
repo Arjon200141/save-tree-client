@@ -1,0 +1,122 @@
+[
+    {
+        "event_id": 1,
+        "event": {
+            "name": "Rainy Season Green Initiative 2024",
+            "date": "2024-08-21",
+            "organizer": "Save Tree Foundation Kushtia",
+            "location": {
+                "district": "Kushtia",
+                "venue": "Mir Musharraf Hossain School"
+            },
+            "description": "Tree planting program organized in various educational institutions of Kushtia during the rainy season to promote environmental conservation and beautification.",
+            "activities": [
+                "Tree plantation",
+                "Environmental awareness",
+                "Community engagement"
+            ],
+            "participants": "All members of Save Tree Foundation Kushtia",
+            "outcome": "Plantation of beautifying trees to contribute to environmental change in the country",
+            "call_to_action": "Let's all work together for the country's environment",
+            "image_urls": [
+                "https://i.ibb.co/d0rtvmv7/004-1.jpg",
+                "https://i.ibb.co/4ZDZNSqd/004-2.jpg",
+                "https://i.ibb.co/1Yxw0yvn/004-3.jpg",
+                "https://i.ibb.co/6JVPCXZZ/004-4.jpg",
+                "https://i.ibb.co/mVH94DNz/004-5.jpg",
+                "https://i.ibb.co/vvjcbKCG/004-6.jpg",
+                "https://i.ibb.co/0jPJhKC7/004-7.jpg",
+                "https://i.ibb.co/G4vpsD7H/004-8.jpg",
+                "https://i.ibb.co/RGDw7xdY/004-9.jpg",
+                "https://i.ibb.co/fGH2Spht/004-10.jpg",
+                "https://i.ibb.co/657YZQ5/004-11.jpg"
+            ]
+        }
+    },
+    {
+        "event_id": 2,
+        "event": {
+            "name": "Green Kushtia: Monsoon Tree Plantation Drive",
+            "date": "22nd August 2024",
+            "organizer": "Save Tree Foundation Kushtia",
+            "location": "Kushtia Kolokakoli School and various educational institutions in Kushtia district",
+            "purpose": "Tree plantation program during rainy season to beautify the environment",
+            "description": "Members of Save Tree Foundation Kushtia enthusiastically planted decorative trees as part of an ongoing environmental initiative across educational institutions. The event aimed to inspire collective action for the country's ecological improvement.",
+            "images": [
+                "https://i.ibb.co/3yRCX8Y2/003-1.jpg",
+                "https://i.ibb.co/3yxjL1w7/003-2.jpg",
+                "https://i.ibb.co/20VKNSnT/003-3.jpg",
+                "https://i.ibb.co/pr1C78Yr/003-4.jpg",
+                "https://i.ibb.co/7xF4YsFf/003-5.jpg",
+                "https://i.ibb.co/CKDVBPyS/003-6.jpg",
+                "https://i.ibb.co/b5g3kC6B/003-7.jpg",
+                "https://i.ibb.co/DPw9BZBk/003-8.jpg",
+                "https://i.ibb.co/4RBk1g4V/003-9.jpg",
+                "https://i.ibb.co/vvKMSMZv/003-10.jpg"
+            ],
+            "message": "Let's all work together for the country's environment - this is how our country will change one day!"
+        }
+    },
+    {
+        "event_id": 3,
+        "event": {
+            "name": "Green Kushtia: Tree Plantation Awareness Drive",
+            "date": "2024-09-02",
+            "organizer": "Save Tree Foundation",
+            "location": {
+                "institution": "Lahini Secondary School",
+                "district": "Kushtia"
+            },
+            "participants": {
+                "organizers": [
+                    "Founder of Save Tree Foundation",
+                    "All members of Save Tree Foundation Kushtia"
+                ],
+                "attendees": "General students of Lahini Secondary School"
+            },
+            "purpose": "To encourage students to plant trees and work together for the country's environment",
+            "activities": [
+                "Awareness seminar",
+                "Tree plantation",
+                "Visit to planted trees"
+            ],
+            "images": [
+                "https://i.ibb.co/tPw4L0kc/002-1.jpg",
+                "https://i.ibb.co/NgyQPd4t/002-2.jpg",
+                "https://i.ibb.co/KxR17f0R/002-3.jpg",
+                "https://i.ibb.co/Q78d40SR/002-4.jpg",
+                "https://i.ibb.co/kv9Pm62/002-5.jpg",
+                "https://i.ibb.co/vxX6WfQp/002-6.jpg",
+                "https://i.ibb.co/zVXr23Rr/002-7.jpg"
+            ],
+            "message": "We can make our country beautiful. And this is how one day our country will change, so let's all work together for the country's environment."
+        }
+    },
+    {
+        "event_id": 4,
+        "event": {
+            "name": "Monsoon Green Drive: Kushtia Tree Planting Initiative",
+            "date": "2024-08-11",
+            "organizer": "Save Tree Foundation Kushtia",
+            "location": "Road adjacent to Kushtia DC Court, Kushtia district",
+            "purpose": "Tree planting program during monsoon season to beautify the area and improve the environment",
+            "description": "All members of Save Tree Foundation Kushtia participated in planting beautifying trees as part of an initiative to transform the country's environment through collective effort.",
+            "image_urls": [
+                "https://i.ibb.co/nsTh8C84/IMG-7041-1.jpg",
+                "https://i.ibb.co/q373RFZr/IMG-7076-1.jpg",
+                "https://i.ibb.co/PZycrrV0/IMG-7111-1.jpg",
+                "https://i.ibb.co/wNDzp9ys/IMG-20240812-WA0283.jpg",
+                "https://i.ibb.co/ds2gXpPq/IMG-7013.jpg",
+                "https://i.ibb.co/XrnDShX9/IMG-7018.jpg",
+                "https://i.ibb.co/HphMQnqm/IMG-7019.jpg"
+            ],
+            "tags": [
+                "environment",
+                "tree planting",
+                "monsoon",
+                "community service",
+                "beautification"
+            ]
+        }
+    }
+]
