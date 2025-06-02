@@ -13,11 +13,11 @@ const Projects = () => {
     useEffect(() => {
         const darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
         setIsDarkMode(darkModeMediaQuery.matches);
-        
+
         const handleChange = (e) => {
             setIsDarkMode(e.matches);
         };
-        
+
         darkModeMediaQuery.addEventListener('change', handleChange);
         return () => darkModeMediaQuery.removeEventListener('change', handleChange);
     }, []);
@@ -97,7 +97,7 @@ const Projects = () => {
     }
 
     return (
-        <div 
+        <div
             className="min-h-screen py-12 px-4 sm:px-6 lg:px-8"
             style={{
                 backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://i.ibb.co/93nhHXKj/Lovepik-com-400234979-big-tree.png')",
@@ -112,7 +112,7 @@ const Projects = () => {
                 transition={{ duration: 0.8 }}
                 className="max-w-7xl mx-auto"
             >
-                <motion.h1 
+                <motion.h1
                     initial={{ y: -50, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.6 }}
@@ -120,7 +120,7 @@ const Projects = () => {
                 >
                     Our <span className="text-green-300">Events</span>
                 </motion.h1>
-                
+
                 {events.length === 0 ? (
                     <div className="text-center py-12">
                         <p className="text-xl text-white">No events found</p>
@@ -132,12 +132,12 @@ const Projects = () => {
                                 key={eventData.event_id}
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
-                                transition={{ 
-                                    duration: 0.6, 
+                                transition={{
+                                    duration: 0.6,
                                     delay: index * 0.1,
                                     ease: "easeOut"
                                 }}
-                                whileHover={{ 
+                                whileHover={{
                                     y: -5,
                                     transition: { duration: 0.3 }
                                 }}
@@ -164,7 +164,7 @@ const Projects = () => {
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 <div className="p-6">
                                     <div className="flex items-center mb-4">
                                         <svg className="w-4 h-4 text-blue-300 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -175,16 +175,16 @@ const Projects = () => {
                                             {getLocationString(eventData.event.location)}
                                         </span>
                                     </div>
-                                    
+
                                     <p className="mb-6 text-gray-200 leading-relaxed">
-                                        {eventData.event.description?.length > 120 
-                                            ? `${eventData.event.description.substring(0, 120)}...` 
+                                        {eventData.event.description?.length > 120
+                                            ? `${eventData.event.description.substring(0, 120)}...`
                                             : eventData.event.description || eventData.event.purpose || 'No description available'}
                                     </p>
-                                    
+
                                     <div className="flex flex-wrap gap-2 mb-6">
                                         {eventData.event.activities?.slice(0, 4).map((activity, index) => (
-                                            <motion.span 
+                                            <motion.span
                                                 key={index}
                                                 whileHover={{ scale: 1.05 }}
                                                 className="px-3 py-1 text-xs rounded-full bg-white/10 text-gray-200"
@@ -193,7 +193,7 @@ const Projects = () => {
                                             </motion.span>
                                         ))}
                                         {eventData.event.tags?.slice(0, 4).map((tag, index) => (
-                                            <motion.span 
+                                            <motion.span
                                                 key={`tag-${index}`}
                                                 whileHover={{ scale: 1.05 }}
                                                 className="px-3 py-1 text-xs rounded-full bg-white/10 text-gray-200"
@@ -202,9 +202,9 @@ const Projects = () => {
                                             </motion.span>
                                         ))}
                                     </div>
-                                    
+
                                     <motion.button
-                                        whileHover={{ 
+                                        whileHover={{
                                             scale: 1.02,
                                             backgroundColor: "rgba(22, 163, 74, 0.9)"
                                         }}
